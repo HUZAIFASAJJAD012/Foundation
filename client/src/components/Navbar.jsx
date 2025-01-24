@@ -46,6 +46,7 @@ const Navbar = () => {
         </li>
         <li className="mx-3">
           <Link
+          to="/causes"
             href="causes.html"
             className="text-white no-underline text-lg transition-colors duration-300 hover:text-[#20641d]"
           >
@@ -54,6 +55,7 @@ const Navbar = () => {
         </li>
         <li className="mx-3">
           <Link
+          to="/registrationform"
             href="New Member.html"
             className="text-white no-underline text-lg transition-colors duration-300 hover:text-[#20641d]"
           >
@@ -62,6 +64,7 @@ const Navbar = () => {
         </li>
         <li className="mx-3">
           <Link
+          to="/aboutus"
             href="about.html"
             className="text-white no-underline text-lg transition-colors duration-300 hover:text-[#20641d]"
           >

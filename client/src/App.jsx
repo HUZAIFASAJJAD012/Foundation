@@ -7,6 +7,9 @@ import Footer from './components/Footer';
 import ContactForm from './pages/ContactForm';
 import DonationForm from './pages/DonationForm';
 import DonationRegister from './pages/DonationRegister';
+import Causes from './pages/Causes';
+import RegistrationForm from './pages/RegistrationForm ';
+import AboutUs from './pages/AboutUs';
 
 function App() {
   return (
@@ -18,6 +21,10 @@ function App() {
         <Route path="/contactform" element={<ContactForm />} />
         <Route path="/donationform" element={<DonationForm />} />
         <Route path="/donationregister" element={<DonationRegister />} />
+        <Route path="/causes" element={<Causes />} />
+        <Route path="/registrationform" element={<RegistrationForm />} />
+        <Route path="/aboutus" element={<AboutUs/>} />
+
       </Routes>
 
       <Footer/>

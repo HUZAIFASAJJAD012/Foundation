@@ -12,7 +12,7 @@ const DonationForm = () => {
 
       {/* Main Content */}
       <div className="py-10 px-5 mx-auto max-w-4xl rounded-xl opacity-85">
-        <div id="donate" className="bg-blue-900 bg-opacity-70 p-6 rounded-xl">
+        <div id="donate" className="bg-[#001f3f] bg-opacity-70 p-6 rounded-xl">
           <h1 className="text-center text-white text-3xl mb-6">Donation Page</h1>
           <form className="flex flex-col gap-4">
             <label htmlFor="cause" className="font-bold text-white">
@@ -86,7 +86,7 @@ const DonationForm = () => {
 
             <button
               type="submit"
-              className="py-3 bg-[#001B35FF] text-white rounded-md hover:bg-green-600 transition focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="py-3 bg-[#025DB3FF] text-white rounded-md hover:bg-green-600 transition focus:outline-none focus:ring-2 focus:ring-green-500"
             >
               Donate
             </button>

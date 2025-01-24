@@ -17,11 +17,24 @@ const Causes = () => {
       description: "Provide medical checkups and healthcare support.",
       progress: 60,
     },
+    {
+        title: "Healthcare Services",
+        description: "Provide medical checkups and healthcare support.",
+        progress: 60,
+      },{
+        title: "Healthcare Services",
+        description: "Provide medical checkups and healthcare support.",
+        progress: 60,
+      },{
+        title: "Healthcare Services",
+        description: "Provide medical checkups and healthcare support.",
+        progress: 60,
+      },
   ];
 
   return (
-    <div className="max-w-5xl mx-auto mt-32 mb-8 p-8 bg-white bg-opacity-90 rounded-lg shadow-md">
-      <h1 className="text-3xl font-bold text-center text-[#001f3f] mb-8">
+    <div className="max-w-5xl min-h-screen mx-auto mt-32 mb-8 p-8 bg-[#01305FFF] bg-opacity-90 rounded-lg shadow-md">
+      <h1 className="text-3xl font-bold text-center text-[#FFFFFFFF] mb-8">
         Support a Cause
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
