@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-      <footer className="bg-[#001f3f] text-white py-5 text-center">
+      <footer className="bg-[#001f3f] text-white py-5  z-10 text-center">
         <ul className="list-none p-0 mb-4">
           <li className="inline mx-4">
             <a
